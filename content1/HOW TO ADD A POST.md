@@ -1,10 +1,10 @@
 # my-blog-content
 
 ## How to add a post
-Create a new file at `posts/<YEAR>/<slug>.md`.
+Create a new file at `content1/posts/<YEAR>/<slug>.md`.
 
-1. Create the year folder if it does not exist: `posts/<YEAR>/`.
-2. Create the Markdown file: `posts/<YEAR>/<slug>.md`.
+1. Create the year folder if it does not exist: `content1/posts/<YEAR>/`.
+2. Create the Markdown file: `content1/posts/<YEAR>/<slug>.md`.
 3. Copy the frontmatter template below.
 4. Keep `filename`, `slug`, and `year` consistent.
 
@@ -22,14 +22,22 @@ description: "One sentence description."
 date: "YYYY-MM-DD"
 year: "2025"
 slug: "your-post-slug"
-status: "concept" / "draft" / "live" / "dead"
+status: "concept" / "draft" / "hidden" / "live" / "dead" / "junk"
 author: "Your Name"
 ---
 ```
 
+## Status meanings
+- `hidden`: live on site, but not linked from main blog page
+- `live`: live on site and linked from main blog page
+- `dead`: was once live, now is not live
+- `draft`: not live yet, still a work in progress
+- `concept`: same as draft but less content
+- `junk`: abandoned work, decided not to continue
+
 ## Example
 File path:
-`posts/2025/scale-facebook-ads.md`
+`content1/posts/2025/scale-facebook-ads.md`
 
 ```md
 ---
