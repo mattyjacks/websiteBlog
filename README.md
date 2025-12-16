@@ -49,6 +49,7 @@ slug: "your-post-slug"
 status: "concept" / "draft" / "hidden" / "live" / "dead" / "junk"
 author: "Your Name"
 ---
+```
 
 ## Status meanings
 - `hidden`: live on site, but not linked from main blog page
@@ -125,3 +126,4 @@ author: "Matt"
 
 ## The Scaling Problem
 Most advertisers scale too fast...
+```
