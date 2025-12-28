@@ -4,7 +4,7 @@ description: "A practical framework for understanding and improving ROAS in Meta
 date: "2025-01-12"
 year: "2025"
 slug: "facebook-roas-guide"
-status: "draft"
+status: "live"
 author: "Matt"
 ---
 
