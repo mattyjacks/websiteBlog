@@ -4,7 +4,7 @@ description: "A practical guide to scaling Meta ads without killing performance.
 date: "2025-01-05"
 year: "2025"
 slug: "scale-facebook-ads"
-status: "draft"
+status: "live"
 author: "Matt"
 ---
 
